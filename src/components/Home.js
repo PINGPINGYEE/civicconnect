@@ -95,8 +95,8 @@ const Home = () => {
     <Container>
       {/* 빵빠레 효과 */}
       <Confetti width={windowSize.width} height={windowSize.height} />
-      <Title>우리의 200일을 축하합니다! 💕</Title>
-      <Subtitle>함께한 시간을 다시 한 번 되새겨보세요.</Subtitle>
+      <Title>200일 축하해!</Title>
+      <Subtitle>그리고 많이 사랑해 💕 한 평생!</Subtitle>
 
       {/* 풍선 숫자와 하트 */}
       <BalloonsContainer>
