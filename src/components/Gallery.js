@@ -3,7 +3,8 @@ import React from "react";
 import styled from "styled-components";
 
 // 45개의 이미지 경로 배열 생성
-const images = Array.from({ length: 45 }, (_, i) => `/images/i${i + 1}.jpg`);
+const images = Array.from({ length: 45 }, (_, i) => `${process.env.PUBLIC_URL}/images/i${i + 1}.jpg`);
+
 
 // 스타일 정의
 const GalleryContainer = styled.div`
